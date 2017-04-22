@@ -3,21 +3,59 @@
   font-family: roboto;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .icontainer button {
   display: block;
   background: none;
   color: white;
-  margin-left: 136px;
+  margin-left: 112px;
+  border-radius: 20px;
+    border: 1px solid white;
+    padding: 20px;
+    width: 275px;
 }
 
 .introtexto {
   display: inline-block;
     font-size: 42px;
     color: white;
-    margin-left: 78px;
+    margin-top: 101px;
+margin-left: 110px;
+line-height: 21px;
 }
 
 .icontainer {
-  background: #FF0C59;
+background: url("../imagenes/fondo.png") repeat, linear-gradient(to right,crimson,purple);
+  height: 650px;
+}
+
+.introimagen {
+  display: inline-block;
+  position: absolute;
+}
+
+.icontainer img {
+  position: absolute;
+display: inline-block;
+right: 151px;
+top: 65px;
+width: 440px;
+}
+
+
+
+
+
+
+
+
+.androidios {
+  position: relative;
   height: 500px;
+  background: orange;
+  z-index: 3;
 }
