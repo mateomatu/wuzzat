@@ -1,6 +1,6 @@
 
 * {
-  font-family: roboto;
+  font-family: Ubuntu;
 }
 
 body {
@@ -8,54 +8,231 @@ body {
   padding: 0;
 }
 
+                                  /* PRIMER DIV */
 .icontainer button {
   display: block;
   background: none;
   color: white;
   margin-left: 112px;
   border-radius: 20px;
-    border: 1px solid white;
-    padding: 20px;
-    width: 275px;
+  border: 1px solid white;
+  padding: 20px;
+  width: 275px;
 }
 
 .introtexto {
   display: inline-block;
-    font-size: 42px;
-    color: white;
-    margin-top: 101px;
-margin-left: 110px;
-line-height: 21px;
+  font-size: 42px;
+  color: white;
+  margin-top: 101px;
+  margin-left: 110px;
+  line-height: 21px;
 }
 
 .icontainer {
-background: url("../imagenes/fondo.png") repeat, linear-gradient(to right,crimson,purple);
+  background: url("../imagenes/fondo.png") repeat, linear-gradient(to right,#FF0029,#7F34AD);
   height: 650px;
 }
 
-.introimagen {
-  display: inline-block;
-  position: absolute;
-}
 
 .icontainer img {
   position: absolute;
-display: inline-block;
-right: 151px;
-top: 65px;
-width: 440px;
+  display: inline-block;
+  right: 151px;
+  top: 65px;
+  width: 440px;
 }
 
+.textbutton {
+  margin-left: 122px;
+}
+                                  /* PRIMER DIV END*/
 
 
 
+                                  /*SEGUNDO DIV*/
 
 
+#primerh2 {
+  margin-top: 0;
+  padding-top: 138px;
+}
 
 
 .androidios {
   position: relative;
   height: 500px;
-  background: orange;
+  background: #FFCB46;
   z-index: 3;
+}
+
+.textosandroidios {
+  /* position: absolute;
+  left: 20px; */
+
+  text-align: center;
+  margin: auto;
+  width: 530px;
+}
+
+.stores {
+  display: flex;
+  justify-content: center;
+}
+
+.appstores {
+      width: 165px;
+}
+
+.textosandroidios h2 {
+  font-size: 56px;
+  color: white;
+  line-height: 26px;
+}
+
+.textosandroidios p {
+  color: white;
+}
+                                  /* SEGUNDO DIV END */
+
+                                  /* TERCER DIV */
+.servicios {
+  height: 1047px;
+}
+
+.texto-servicios {
+  text-align: center;
+  margin: auto;
+  width: 919px;
+  line-height: 9px;
+  color: #666;
+}
+
+#celu-3-div {
+  height: 699px;
+  width: 347px;
+  position: absolute;
+  left: 228px;
+  padding-top: 125px;
+}
+
+#servicio-h2 {
+  padding-top: 81px;
+  font-size: 40px;
+}
+.datos {
+  display: flex;
+  padding-left: 740px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 161px;
+  margin-right: 74px;
+}
+
+
+.iconos-servicios {
+  width: 203px;
+  height: 100px;
+  margin: auto;
+}
+
+.flexible, .mockups, .open-source, .f2u {
+  display: inline-block;
+}
+
+
+.servicios p, .servicios h3 {
+  text-align: center
+}
+                                  /* TERCER DIV END */
+
+                                  /* CUARTO DIV */
+.getstarted {
+  height: 820px;
+  background: url("../imagenes/usuario.jpg") center center;
+  background-size: cover;
+}
+
+.getstarted h2 {
+  font-size: 73px;
+}
+
+.getstarted-textos {
+  margin-left: 72px;
+  padding-top: 321px;
+  color: white;
+  line-height: 31px;
+}
+
+.getstarted button {
+  background: none;
+  border-radius: 20px;
+  width: 239px;
+  height: 39px;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+                                  /* CUARTO DIV END */
+
+                                  /* QUINTO DIV */
+.social {
+  background: #FFCB6D;
+  height: 400px;
+  display: flex;
+  margin: 0;
+}
+
+.social-text {
+/* margin: auto;
+width: 133px; */
+  margin: auto;
+}
+
+.social p {
+  font-size: 45px;
+}
+
+.ion-android-favorite {
+  color: red;
+}
+
+.iconitos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -37px;
+}
+
+.twitter {
+  width: 71px;
+  padding-left: 29px;
+}
+
+.facebook {
+  width: 71px;
+}
+
+.google {
+  width: 71px;
+  padding-right: 45px;
+}
+                                  /*QUINTO DIV END*/
+
+                                  /*FOOTER DIV*/
+footer {
+  height: 58px;
+  background: #262626;
+  display: flex;
+  margin: 0;
+}
+
+.footer-text {
+  margin: auto;
+      color: gray;
+      font-size: 10px;
+}
+
+#privacy {
+  text-align: center;
 }
