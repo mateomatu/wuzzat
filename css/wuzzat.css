@@ -1,6 +1,7 @@
 
 * {
   font-family: Ubuntu;
+  max-width: 1200px, 0;
 }
 
 body {
@@ -34,7 +35,6 @@ body {
   height: 650px;
 }
 
-
 .icontainer img {
   position: absolute;
   display: inline-block;
@@ -43,8 +43,32 @@ body {
   width: 440px;
 }
 
+
 .textbutton {
   margin-left: 122px;
+}
+
+@media screen and (max-width: 768px) {
+  .icontainer {
+    height: 1510px;
+  }
+
+  .icontainer img {
+    top: 595px;
+    position: absolute;
+  }
+
+  .textbutton {
+    margin-left: 0;
+
+
+
+  }
+
+  .icontainer button {
+  margin-left: 237px;
+;
+  }
 }
                                   /* PRIMER DIV END*/
 
@@ -67,9 +91,6 @@ body {
 }
 
 .textosandroidios {
-  /* position: absolute;
-  left: 20px; */
-
   text-align: center;
   margin: auto;
   width: 530px;
@@ -185,8 +206,6 @@ body {
 }
 
 .social-text {
-/* margin: auto;
-width: 133px; */
   margin: auto;
 }
 
@@ -236,3 +255,4 @@ footer {
 #privacy {
   text-align: center;
 }
+                                  /*FOOTER DIV END*/
